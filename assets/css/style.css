@@ -1,0 +1,411 @@
+body{
+    
+    background-image: url("../images/background2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    direction: rtl;
+        
+}
+header{
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+main{
+    direction: rtl;
+    text-align: right;
+    margin-bottom: 5%;
+    overflow: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+nav a {
+    float:center;
+    background-color:none;
+    color:black ;
+    text-align:center;
+    padding:20px 20px;
+    margin:20px;
+    text-decoration:none;
+    font-size:17px;
+}
+
+nav a:hover {
+    background-color: silver;
+    color: white;
+    border-radius: 10%;
+
+}
+.navbar-nav{
+    height: 10%;
+}
+
+.fa-bars{
+    font-size: 30px !important;
+    color:black;
+    border: white solid;
+    padding: 10%;
+    border-radius: 15%;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+.navbar-nav li a{
+    float: left;
+    text-align: center;
+}
+.nav_lines{
+    border-top: 3px solid SlateGrey ;
+    border-bottom: 3px solid SlateGrey ;
+}
+.description{
+    border: SlateGrey solid;
+    text-align: center;
+    margin-left: 3%;
+    margin-bottom: 3%;
+    margin-right: 3%;
+    background-color: rgba(255,255,255, 0.7);
+    overflow: auto;
+}
+#welcomeMsg{
+    height: 300px;
+    padding-top: 4%;
+    padding-right: 4%;
+}
+.log_in{
+    border: SlateGrey solid;
+    background-color: white;
+    opacity: 0.8;
+    padding-right: 3%;
+}
+legend{
+    text-align: center;
+    font-weight: bold;
+}
+.formInput{
+    float:right;
+    width:95%;
+}
+        
+fieldset{
+    padding:2%;
+     margin-bottom:6%;
+     direction: rtl;
+            
+}
+.inputWrapper{
+    padding:2%;
+    overflow:auto;
+}
+#reg{
+    float:right;
+    width:95%;
+    margin-bottom: 3%;
+    background-color: mediumseagreen;   
+    font-weight: bold;
+}
+#submit{
+    float:right;
+    width:95%;
+    margin-bottom: 3%;
+    background-color: mediumseagreen;    
+    font-weight: bold;
+}
+.link{
+    color:black;
+    font-weight: bold;
+    text-align: center;
+}
+.plogin{
+    float:right;
+    margin-left: 1%;
+    margin-right: 13%;
+}
+.alogin{
+    float:right;
+}
+.reg_form_border{
+    overflow: auto;
+    border-style: solid;
+    background-color: white;
+    opacity: 0.8;
+    width: 70%;
+}
+footer{
+    width:90%;
+    margin:auto;
+    color: white;
+    background-color: silver;
+    text-align:center;
+    padding:1%;
+}
+[class*="col-"] {
+    float: right;
+}
+#error{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.search{
+    background-color: mediumseagreen; 
+    display: block;
+    width: 33%;
+    font-weight: bold;
+}
+.query{
+    display: block;
+    width: 33%;
+    margin-bottom: 1%;
+}
+#lable{
+    font-size: 20px;
+    font-weight: bold;
+}
+.line{
+    border:SlateGrey 1px solid;
+    width:80%;
+}
+.tab {
+    overflow: hidden; 
+    margin-bottom: 10%;
+}
+.tab button {
+    display: block;
+    background-color: DimGray ;
+    opacity: 0.8;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    
+}
+.tab button:hover {
+    background-color: darkgray;
+}
+.tab button.active {
+    background-color: darkgray;
+}
+.tabcontent {
+    
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    background-color: rgba(255,255,255, 0.7);
+    animation: fadeEffect 1s;
+    overflow: auto;
+}
+.tabs{
+    margin-bottom: 10%;
+}
+.showBox{
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 240px;
+    margin:1%;
+}
+.showImg{
+    width: 200px;
+    height: 240px;
+    display: inline-block;
+}
+.showText{
+    opacity: 0;
+    width: 200px;
+    height: 240px;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color: rgba(37, 34, 34, 0.6);
+    text-align: center;
+}
+.showText:hover{
+    opacity: 1;
+}
+.showArea{
+    margin: 1%;
+    display: inline-block;
+    width: 200px;
+    position: relative;
+}
+.purchase{
+    width:200px;
+    margin: 2%;
+    display: inline-block;  
+    text-align: center;
+}
+.showName{
+    margin:4%;
+}
+.showInfo{
+    text-align: right;
+    margin-right: 15%;
+}
+.purchaseWrapper{
+    background-color:rgba(192,198,198,1);
+    clear:both;
+    margin: 3%;
+    border-radius: 10%;
+}
+.lab{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+}
+.cardLab{
+	width:98%;
+}
+input {
+  width: 60%;
+  margin-bottom: 3%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+select{
+   height: 50px;
+    border-radius: 4%;
+    border: 1px solid lightgrey;
+}
+#ccnum{
+    direction: ltr;
+}
+#paySubmit{
+    float:right;
+    width:100%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    background-color: mediumseagreen;  
+    font-weight: bold;
+}
+#purchMsg{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 40%;
+    margin-right: 2%;
+}
+.labPA{
+    width: 30%;
+    display: inline-block;
+    text-align: right;
+    font-weight: bold;
+}
+.inputPA{
+  width: 45%;
+  margin-bottom: 3%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+table{
+    margin: 0% 4%;
+    background-color: rgba(255,255,255, 0.8);
+}
+tr{
+    text-align: center;
+}
+td{
+   text-align: center;
+}
+#fileToUpload{
+    width: 100%;
+    border-style: none;
+    padding:10px 0px;
+}
+#title{
+    font-weight: bolder;
+    text-align: center;
+}
+#usersTable{
+    heigth: 30px;
+    display: none;
+}
+#showsTable{
+    height: 30px;
+    display: none;
+}
+#hallTable{
+    heigth: 30px;
+    display: none;
+}
+#btnShow{
+    width: 30%;
+}
+#btnHall{
+    width:30%;
+    
+}
+#btnCostumers{
+    width:30%;
+}
+#statistics{
+    heigth: 30px;
+    display: none;
+}
+#btnStatistics{
+    width: 30%;
+}
+#hot_show{
+    width:5%;
+}
+#hotShows{
+    overflow: auto;
+    width: 95%;
+}
+#login_cube{
+    height: 300px;
+}
+#center{
+    display:block;
+}
+#recommendedShows{
+    clear: both;
+    width: 95%;
+}
+#piechart{
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#sumOfPurchases{
+      width: 30%;
+      margin-bottom: 3%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+}
+#labPurchase{
+    width:20%;
+}
+#benefit_cube{
+    text-align: center;
+    font-weight: bold;
+    height: 300px;
+}
+#birthday{
+    color:red;
+}
+#welcome{
+    font-weight: bold;
+}
+.centerTitle{
+    text-align: center;
+}
+section{
+    margin-bottom: 3%;
+}
